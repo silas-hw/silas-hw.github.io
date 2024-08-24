@@ -16,6 +16,14 @@ body {
     }
 }
 
+@media only screen and (orientation: portrait) {
+    html {
+        font-size: 150%;
+    }
+
+
+}
+
 ul {
     margin: 0;
 }
