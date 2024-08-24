@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<h1>Projects</h1>
+
+<div class="grid-list">
+    {% for project in site.projects %}
+    <a href="{{ project.url }}" class="page-preview">
+        <h3>{{ project.title }}</h3>
+        <p>{{ project.brief }}</p>
+    </a>
+    {% endfor %}
+</div>

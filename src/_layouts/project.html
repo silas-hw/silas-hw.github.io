@@ -8,8 +8,9 @@ layout: default
   <p>{{ page.year }}</p>
 
   <ul class="tags">
+    <p><b>Tags: </b></p>
     {% for tag in page.tags %} 
-      <li>{{ tag }}</li>
+      <li>{{ tag }}{% unless forloop.last %},{% endunless %}</li>
     {% endfor %}
   </ul>
 </section>

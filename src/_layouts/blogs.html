@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<h1>Blogs</h1>
+
+{% unless page.category == null %}
+<p>Matching Category: <strong> {{ page.category }} </strong></p>
+{% endunless %}
+
+<div class="block-list">
+    {% for post in site.posts  %}
+    {% if post.categories contains page.category or page.category == null%}
+    <a href="{{ post.url }}" class="page-preview">
+        <h3>{{ post.title }}</h3>
+        <p>{{ post.date }}</p>
+    </a>
+    {% endif %}
+    {% endfor %}
+</div>

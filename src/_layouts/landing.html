@@ -4,7 +4,7 @@ layout: default
 
 <h1>Recent Projects</h1>
 <div class="grid-list">
-    {% for project in site.projects %}
+    {% for project in site.projects limit:5 %}
     <a href="{{ project.url }}" class="page-preview">
         <h3>{{ project.title }}</h3>
         <p>{{ project.brief }}</p>
@@ -14,7 +14,7 @@ layout: default
 
 <h1>Recent Blogs</h1>
 <div class="block-list">
-    {% for post in site.posts %}
+    {% for post in site.posts limit:5 %}
     <a href="{{ post.url }}" class="page-preview">
         <h3>{{ post.title }}</h3>
         <p><b>Date:</b> {{ post.date }}</p>
