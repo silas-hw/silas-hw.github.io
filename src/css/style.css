@@ -1,0 +1,49 @@
+body {
+    background-color: blanchedalmond;
+
+    margin: 0;
+    padding-top: 0;
+    border: 0;
+
+    background-image: url("https://1-background.com/images/stars-1/beautiful-blue-stars-fill.jpg");
+    background-repeat: repeat;
+}
+
+@media only screen and (orientation: landscape) {
+    body {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+}
+
+ul {
+    margin: 0;
+}
+
+div.root {
+    background-color: white;
+
+    height: 100%;
+
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+nav {
+    padding-top: 15px;
+    width: 100%;
+
+    display: inline-block;
+}
+
+nav > ul {
+    display: flex;
+
+    float: right;
+}
+
+nav > ul > li {
+    list-style-type: none;
+
+    margin-left: 10px;
+}

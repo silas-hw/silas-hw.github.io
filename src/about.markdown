@@ -1,18 +1,27 @@
 ---
-layout: page
+layout: default
 title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+# About
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Welcome to my website! I'll be using this to post dev-blogs (random rants about things no-one cares for) as well as a portfolio
+of my projects.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+## Who am I????
 
+I'm Silas :3. I'm currently studying Computer Science at the University of Nottingham, and have a huge interest in computing in general.
 
-[jekyll-organization]: https://github.com/jekyll
+Right now I'm looking a lot into software architecture, graphics, and low-level programming. I enjoy web design, but as you can
+probably tell it is definitely not be forte.
+
+## Give me the deets!
+
+- [GitHub](https://github.com/silas-hw)
+
+## SHOW ME YOUR CAT PLEASEEEEEEE PLEASEE
+
+okkkkkk
+
+<![Woodford](/assets/img/cat.jpg){: height="500"}
