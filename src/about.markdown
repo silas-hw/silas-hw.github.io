@@ -14,7 +14,7 @@ of my projects.
 I'm Silas :3. I'm currently studying Computer Science at the University of Nottingham, and have a huge interest in computing in general.
 
 Right now I'm looking a lot into software architecture, graphics, and low-level programming. I enjoy web design, but as you can
-probably tell it is definitely not be forte.
+probably tell it is definitely not my forte.
 
 ## Give me the deets!
 
