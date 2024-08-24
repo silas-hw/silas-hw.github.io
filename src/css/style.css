@@ -1,18 +1,26 @@
+@import "sass-code-highlight/code";
+
 body {
-    background-color: blanchedalmond;
+    background-color: black;
 
     margin: 0;
     padding-top: 0;
     border: 0;
 
-    background-image: url("https://1-background.com/images/stars-1/beautiful-blue-stars-fill.jpg");
+    background-image: url("/assets/img/bg.jpg");
     background-repeat: repeat;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 @media only screen and (orientation: landscape) {
     body {
         padding-left: 20%;
         padding-right: 20%;
+    }
+
+    div.grid-list {
+        grid-template-columns: repeat(3, 33%);
     }
 }
 
@@ -21,6 +29,9 @@ body {
         font-size: 150%;
     }
 
+    div.grid-list {
+        grid-template-columns: 100%;
+    }
 
 }
 
@@ -28,13 +39,72 @@ ul {
     margin: 0;
 }
 
+div.grid-list {
+    display: grid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+div.block-list {
+    display: grid;
+
+    grid-template-columns: 100%;
+}
+
+.page-preview {
+    border-radius: 5px;
+    border-color: black;
+    border-width: 1px;  
+
+    border-style: solid;
+
+    margin: 8px;
+    padding: 10px;
+
+    text-decoration: none;
+
+    box-shadow: 0px 0px 10px 1px black;
+}
+
+.page-preview:link, .page-preview:visited {
+    color: black;
+}
+
+.page-preview > * {
+    margin: 0;
+}
+.page-preview > p {
+    font-size: 0.8em;
+}
+
 div.root {
     background-color: white;
 
-    height: 100%;
+    padding-left: 3%;
+    padding-right: 3%;
 
-    padding-left: 2%;
-    padding-right: 2%;
+    box-shadow: 0px 0px 30px 3px gray;
+}
+
+h1 {
+    margin-bottom: 3px;
+}
+
+.info > p {
+    margin: 0;
+}
+
+.tags {
+    display: flex;
+    padding: 0;
+}
+
+.tags > li {
+    color: rgb(75, 75, 75);
+
+    list-style: none;
+    margin: 0;
+    padding-right: 8px;
 }
 
 nav {

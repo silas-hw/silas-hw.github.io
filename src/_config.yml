@@ -34,6 +34,14 @@ theme: minima
 plugins:
   - jekyll-feed
 
+defaults:
+  -
+    scope:
+      path: "/_projects/"
+    values:
+      year: "not set"
+      brief: "no brief provided"
+
 collections:
     projects:
       output: true
