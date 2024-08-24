@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>silas-hw</title>
+    </head>
+
+    <body>
+        <ul>
+            {% for project in site.projects %}
+            <li>
+                <a href="{{ project.url }}">{{ project.title }}</a>
+            </li>
+
+            {% endfor %}
+        </ul>
+    </body>
+</html>
