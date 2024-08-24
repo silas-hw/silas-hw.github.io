@@ -6,8 +6,11 @@ layout: default
 <div class="grid-list">
     {% for project in site.projects %}
     <a href="{{ project.url }}" class="page-preview">
-        <h3>{{ project.title }}</h3>
-        <p>{{ project.brief }}</p>
+        <h3>{{ project.title }}<button>X</button> <button>?</button></h3>
+
+        <div>
+            <p>{{ project.brief }}</p>
+        </div>
     </a>
     {% endfor %}
 </div>

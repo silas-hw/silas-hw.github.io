@@ -50,29 +50,59 @@ div.block-list {
 }
 
 .page-preview {
-    border-radius: 5px;
-    border-color: black;
-    border-width: 1px;  
-
-    border-style: solid;
+    background:#C0C0C0;
+    border-width:2px;
+    border-color:#f0f0f0 #808080 #808080 #f0f0f0;
+    border-style:solid;
 
     margin: 8px;
-    padding: 10px;
 
     text-decoration: none;
 
-    box-shadow: 0px 0px 10px 1px black;
+    box-shadow: 4px 4px 0px black;
+}
+.page-preview > h3 {
+    font-size: 1em;
+    color: white;
+    background-color: blue;
+
+    padding-left: 10px;
+    margin: 0;
+}
+
+.page-preview > * > button {
+  margin:2px 2px 2px 0;
+  float:right;
+  width:14px;
+  height:13.5px;
+  background:#C0C0C0;
+  border-width:1px;
+  border-color:#FFFFFF #808080 #808080 #FFFFFF;
+  padding:0;
+  font-size:9px;
+  font-weight:bold;
+  font-family:Tahoma;
+  text-align:center;
+  focus:none;
+}
+
+.page-preview > * > button:focus {
+   outline: none;
 }
 
 .page-preview:link, .page-preview:visited {
     color: black;
 }
 
-.page-preview > * {
+.page-preview > * > * {
     margin: 0;
 }
-.page-preview > p {
+.page-preview > * > p {
     font-size: 0.8em;
+}
+
+.page-preview > div {
+    padding: 10px;
 }
 
 div.root {

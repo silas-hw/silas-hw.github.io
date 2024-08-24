@@ -6,8 +6,11 @@ layout: default
 <div class="grid-list">
     {% for project in site.projects limit:5 %}
     <a href="{{ project.url }}" class="page-preview">
-        <h3>{{ project.title }}</h3>
-        <p>{{ project.brief }}</p>
+        <h3>{{ project.title }}  <button>X</button> <button>?</button> </h3>
+
+        <div>
+            <p>{{ project.brief }}</p>
+        </div>
     </a>
     {% endfor %}
 </div>
@@ -16,13 +19,17 @@ layout: default
 <div class="block-list">
     {% for post in site.posts limit:5 %}
     <a href="{{ post.url }}" class="page-preview">
-        <h3>{{ post.title }}</h3>
-        <p><b>Date:</b> {{ post.date }}</p>
-        <p><b>Categories: </b> 
-            {% for category in post.categories %}
-                {{ category }}
-            {% endfor %}
-        </p>
+        <h3 class="title">{{ post.title }} <button>X</button> <button>?</button></h3>
+        
+        <div>
+            <p><b>Date:</b> {{ post.date }}</p>
+            <p><b>Categories: </b> 
+                {% for category in post.categories %}
+                    {{ category }}
+                {% endfor %}
+            </p>
+        </div>
+        
     </a>
     {% endfor %}
 </div>
