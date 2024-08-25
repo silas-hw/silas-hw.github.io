@@ -1,3 +1,9 @@
+
+code {
+    max-width: 100%;
+    text-wrap: pretty;
+}
+
 body {
     background-color: black;
 
