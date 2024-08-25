@@ -163,7 +163,11 @@ nav {
     padding-top: 15px;
     width: 100%;
 
-    display: inline-block;
+    display: flex;
+}
+
+nav > * {
+    flex-grow: 1;
 }
 
 nav > ul {
@@ -174,6 +178,7 @@ nav > ul {
 
 nav > ul > li {
     list-style-type: none;
+    flex-grow: 1;
 
     margin-left: 10px;
 }
