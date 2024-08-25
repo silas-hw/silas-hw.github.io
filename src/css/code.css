@@ -175,3 +175,7 @@
       color: #666666;
     }
   }
+
+.pre {
+  white-space: pre-wrap;
+}
