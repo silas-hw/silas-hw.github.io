@@ -36,6 +36,10 @@ blockquote.prompt-tip::before {
     vertical-align: middle;
 }
 
+* {
+    cursor: url("/assets/img/cursor-scaled.png"), auto
+}
+
 body {
     background-color: black;
     background-attachment: fixed;
@@ -46,8 +50,6 @@ body {
 
     background-image: url("/assets/img/bg.jpg");
     background-repeat: repeat;
-
-    cursor: url("/assets/img/github.png"), auto;
 
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
