@@ -9,7 +9,7 @@ tags:
     - java
 ---
 
-## Say what?
+## Bleep Bloop
 
 Probably like every developer in existence, I've decided to start a game dev project! 
 
@@ -25,12 +25,12 @@ There's probably a lot wrong, but this is my first real excursion into software 
 
 ## Downloads
 
-The current download process aint the most non-developer friendly, I'll be honest. To download a specific release, go to the [releases page](https://github.com/silas-hw/SCNGame/releases) on the GitHub repo. 
+Download the latest pre-release [here](https://github.com/silas-hw/SCNGame/releases/download/v0.0.3/desktop-v0.0.3.jar). Make sure to save it to its own folder, because it will create a 'saves' folder when you run it to store save files.
 
 Or, if you're feeling extra daring, you can download bleeding edge builds from these [GitHub action workflows](https://github.com/silas-hw/SCNGame/actions/workflows/canary-build.yml). You'll have to scroll down to the 'artifacts' on a workflow run and donwload the zip file, which contains the built jar.
 
 Oh yeah, there's currently no properly packaged releases. You'll have to install Java 17+ in order to get it running... but it's installed on over 3 billion machines right? So you probably already have it.
 
-## Updates? 
+## Updates?
 
 This is just the project page, showcasing the project off as a whole. I will probably end up posting separate dev-blogs ranting about specific things I'm working on at some point.

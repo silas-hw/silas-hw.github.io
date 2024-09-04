@@ -8,6 +8,9 @@ tags: hello-world
 
 Hello, World!
 
+> This is an example of a Tip.
+{: .prompt-tip }
+
 Welcome to my little space on the internet (yeah, I know. Corny). I've decided to make a website to ramble about things I'm working on
 as well as show off the projects I've made/are making B)
 

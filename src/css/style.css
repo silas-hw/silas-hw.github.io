@@ -3,6 +3,39 @@ code {
     text-wrap: pretty;
 }
 
+p {
+    margin: 0.5em;
+}
+
+blockquote {
+    margin: 0;
+    margin-top: 0;
+    padding: 0.5em;
+
+    text-align: left;
+
+    box-sizing: border-box;
+}
+
+blockquote > p {
+    display: inline-block;
+    margin: 0;
+
+    vertical-align: text-top;
+}
+
+blockquote.prompt-tip {
+    background-color: rgba(0, 153, 255, 0.347);
+}
+
+blockquote.prompt-tip::before {
+    display: inline-block;
+    content: url("/assets/img/info.png");
+    margin: 0.5em;
+
+    vertical-align: middle;
+}
+
 body {
     background-color: black;
     background-attachment: fixed;
@@ -13,6 +46,8 @@ body {
 
     background-image: url("/assets/img/bg.jpg");
     background-repeat: repeat;
+
+    cursor: url("/assets/img/github.png"), auto;
 
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
