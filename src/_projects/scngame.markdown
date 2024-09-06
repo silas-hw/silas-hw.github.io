@@ -25,7 +25,7 @@ There's probably a lot wrong, but this is my first real excursion into software 
 
 ## Downloads
 
-Download the latest pre-release [here](https://github.com/silas-hw/SCNGame/releases/download/v0.0.3/desktop-v0.0.3.jar). Make sure to save it to its own folder, because it will create a 'saves' folder when you run it to store save files.
+Download the latest pre-release [here](https://github.com/silas-hw/SCNGame/releases/download/v0.4.0/desktop-v0.4.0.jar). Make sure to save it to its own folder, because it will create a 'saves' folder when you run it to store save files.
 
 Or, if you're feeling extra daring, you can download bleeding edge builds from these [GitHub action workflows](https://github.com/silas-hw/SCNGame/actions/workflows/canary-build.yml). You'll have to scroll down to the 'artifacts' on a workflow run and donwload the zip file, which contains the built jar.
 
