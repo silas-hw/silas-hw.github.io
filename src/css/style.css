@@ -36,10 +36,6 @@ blockquote.prompt-tip::before {
     vertical-align: middle;
 }
 
-* {
-    cursor: url("/assets/img/cursor-scaled.png"), auto
-}
-
 body {
     background-color: black;
     background-attachment: fixed;
