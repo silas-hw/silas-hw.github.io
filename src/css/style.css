@@ -47,7 +47,7 @@ body {
     background-image: url("/assets/img/bg.jpg");
     background-repeat: repeat;
 
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: Georgia, 'Times New Roman', Times, serif
 }
 
 @media only screen and (orientation: landscape) {
@@ -167,7 +167,7 @@ div.block-list {
 div.root {
     position: relative;
     background-color: white;
-    
+
     min-height: 100vh;
 }
 
