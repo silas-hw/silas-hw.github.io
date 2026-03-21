@@ -75,7 +75,7 @@ html {
 
 @media only screen and (orientation: portrait) {
     html {
-        font-size: 250%;
+        font-size: 1.3em;
     }
 
     div.grid-list {
