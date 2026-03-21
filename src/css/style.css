@@ -48,7 +48,10 @@ body {
     background-repeat: repeat;
 
     font-family: Meriwe;
-    font-size: 1.5em
+}
+
+html {
+    font-size: 1.25em
 }
 
 @media only screen and (orientation: landscape) {
