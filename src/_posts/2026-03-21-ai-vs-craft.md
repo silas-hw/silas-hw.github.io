@@ -3,7 +3,7 @@ layout: post
 title:  "AI vs. Craft"
 date:   2026-03-21
 categories: blog general misc
-tags: opinion, ai, dev, academia
+tags: opinion ai dev academia
 ---
 
 # Pre-Face
