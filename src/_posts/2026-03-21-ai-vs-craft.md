@@ -10,9 +10,9 @@ tags: opinion, ai, dev, academia
 
 I'm a theoretical computer scientist at heart, so my opinions on the developer experience come from a very different background to most. I'm also still a student, so don't have much true industry experience, but I feel my opinion is still valid and important.
 
-I'm also not head-strong on my opinion. I'm okay to be proved wrong. In-fact, I want to be proved wrong, as any (good) academic does
+I'm also not head-strong on my opinion. I'm okay to be proved wrong. In-fact, I want to be proved wrong, as any (good) academic does.
 
-# Artifical Output
+# Artificial Output
 
 With the incredibly fast rise of generative AI in the industry, it's almost impossible to escape it. It almost feels like there's an obligiation to use some agentic editor, and that you'll "fall behind" if you don't. I do not like this. I do not like this at all.
 
