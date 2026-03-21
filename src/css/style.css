@@ -47,7 +47,8 @@ body {
     background-image: url("/assets/img/bg.jpg");
     background-repeat: repeat;
 
-    font-family: Georgia, 'Times New Roman', Times, serif
+    font-family: Meriwe;
+    font-size: 1.5em
 }
 
 @media only screen and (orientation: landscape) {
